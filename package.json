@@ -1,0 +1,20 @@
+{
+  "name": "npm_names",
+  "version": "1.0.0",
+  "description": "My first package NPM",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
+  "author": "Diego Fernando Rojas Quintero <diegorojas431@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true
+}
